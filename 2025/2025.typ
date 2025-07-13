@@ -68,6 +68,7 @@
 $ 
 p_0 = attach(vec(x_0, y_0, 1), tl:C_0)  \
 p_1 = attach(vec(x_1, y_1, 1), tl:C_1)  \
+l_0 = attach(vec(a_0, b_0, c_0), tl:C_0)  \
 // attach(R_c_1, tl:C_0) p_1  \
 attach(R_c_1, tl:C_0)   \
 attach(t_c_1, tl:C_0)   \
@@ -96,7 +97,7 @@ $
 $ E = [t]_× R \
   p_0^T l = 0 \
   => p_0^T E p_1 = 0 \
-  => l = E p_1
+  => l_0 = E p_1
 $
 ]
 
@@ -128,7 +129,7 @@ $
   F = K^(-T) ([t]_× R) K^(-1) \
   u_0^T l = 0 \
   => u_0^T F u_1 = 0 \
-  => l = F u_1
+  => l_0 = F u_1
 
   $
 ]
