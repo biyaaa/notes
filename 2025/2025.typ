@@ -31,8 +31,8 @@
 #proposition[
   // 以旋转以ZXY旋转为例
   step1: *$R_y$* \
-  step2: $R_x  @ $*$R_x$* \
-  step3: $R_z  @ R_x @  $*$R_z$* \
+  step2: $R_y  @ $*$R_x$* \
+  step3: $R_y  @ R_x @  $*$R_z$* \
 ]
 
 #emph-box[
